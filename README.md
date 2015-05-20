@@ -15,3 +15,13 @@ For this tutorial, you'll need the following installed on your computer:
 If you already have pip installed, simply type the following into your command line interface:
 
 `sudo pip install numpy pandas scikit-learn scipy matplotlib`
+
+**Video tutorial**
+
+In the first part of the tutorial, we’ll have a look at the dataset, how it’s structured and how the computer can interpret it. In addition to this, we’ll also have a look at our algorithm of choice, which is called K Nearest Neighbor:
+
+https://vimeo.com/128311179
+
+If you have all the dependencies installed, and have downloaded the data.csv from this repository, you can head directly over to part two, where we'll code the algorithm: 
+
+https://vimeo.com/128293489

@@ -22,21 +22,15 @@ X_test = X[1000:1200]
 classifier = neighbors.KNeighborsClassifier()
 
 print 'about to fit'
-classifier.fit(X_train,y_train)
+classifier.fit(X_train, y_train)
 
+score = classifier.score(X_test, y_test)
+print 'score: ', score
 
-score = classifier.score(X_test,y_test)
+prediction = classifier.predict(X[-1])
+print prediction
 
 
 reshaped_example = X[-1].reshape(28,28)
-
 image = plt.imshow(reshaped_example,cmap = cm.Greys_r)
-#plt.colorbar(image, orientation="horizontal")
 plt.show()
-
-
-print classifier.predict(X[-1])
-
-
-
-print 'score: ', score
