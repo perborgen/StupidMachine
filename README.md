@@ -22,6 +22,6 @@ In the first part of the tutorial, we’ll have a look at the dataset, how it’
 
 https://vimeo.com/128311179
 
-If you have all the dependencies installed, and have downloaded the data.csv from this repository, you can head directly over to part two, where we'll code the algorithm: 
+In the second part, we’ll get your dependencies up and running, import the dataset and get going with the coding. We’ll train the algorithm with a few different sizes of data and have a look at how its success rate improves:
 
 https://vimeo.com/128293489
